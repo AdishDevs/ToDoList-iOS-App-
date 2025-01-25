@@ -11,11 +11,14 @@ import SwiftUI
 struct ToDoListApp: App {
     init() {
         FirebaseApp.configure()
+        print("Firebase has been configured.")
+
+        
     }
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
