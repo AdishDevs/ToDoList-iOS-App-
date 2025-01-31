@@ -21,7 +21,7 @@ struct LoginView: View {
                 .offset(y:40)
                 
                 
-            
+                
                 //Login Form
                 Form{
                     
